@@ -1,0 +1,116 @@
+.signup_back {
+  /* Rectangle 11 */
+
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+
+  background: rgba(0, 0, 0, 0.5);
+}
+.signup_area {
+  /* mypage_signup */
+
+  position: absolute;
+  width: 365px;
+  height: 314px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+}
+.signup_flame {
+  /* 枠_ffffff */
+
+  position: absolute;
+  width: 335px;
+  height: 130px;
+  left: 15px;
+  top: 13px;
+
+  background: #ffffff;
+  border: 1px solid rgba(75, 75, 75, 0.3);
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+}
+.signupman_icon {
+  /* 人物アイコン */
+
+  position: absolute;
+  width: 104px;
+  height: 104px;
+  left: 17px;
+  top: 13px;
+}
+.signup_title {
+  /* signup */
+
+  position: absolute;
+  width: 187px;
+  height: 56px;
+  left: 136px;
+  top: 37px;
+
+  font-family: "Trebuchet MS", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 56px;
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+
+  color: #4b4b4b;
+}
+.signup_form {
+  /* 枠_ffffff */
+
+  position: absolute;
+  width: 335px;
+  height: 66px;
+  left: 15px;
+  top: 164px;
+  text-align: center;
+
+  background: #ffffff;
+  border: 1px solid rgba(75, 75, 75, 0.3);
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+
+  /* new name */
+
+  font-family: "Trebuchet MS", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  display: flex;
+  align-items: flex-end;
+}
+.OK_button {
+  /* OKボタン */
+
+  position: absolute;
+  width: 158px;
+  height: 50px;
+  left: 104px;
+  top: 251px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  color: #ffffff;
+
+  background: #4b4b4b;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 100px;
+}

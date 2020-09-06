@@ -1,0 +1,145 @@
+.title_back {
+  /* 背景(上) */
+
+  position: fixed;
+  width: 100%;
+  height: 110px;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  -webkit-transform: translate(-50%, 0%);
+  -ms-transform: translate(-50%, 0%);
+  top: 0px;
+
+  background: #efefef;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.title_area {
+  /* Rectangle 6 */
+
+  position: absolute;
+  width: 225px;
+  height: 73px;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  -webkit-transform: translate(-50%, 0%);
+  -ms-transform: translate(-50%, 0%);
+  top: 28px;
+
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 100px;
+}
+.title_text {
+  /* title */
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+
+  font-family: "Trebuchet MS", sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 72px;
+  line-height: 84px;
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+
+  color: #4b4b4b;
+}
+.under_back {
+  filter: drop-shadow(0px -4px 4px rgba(0, 0, 0, 0.25));
+  position: fixed;
+  width: 100%;
+  height: 55px;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  -webkit-transform: translate(-50%, 0%);
+  -ms-transform: translate(-50%, 0%);
+  bottom: 0px;
+}
+.under_back_rectangle {
+  /* Rectangle 4 */
+
+  position: absolute;
+  width: 100%;
+  height: 55px;
+  bottom: 0%;
+  background: #efefef;
+}
+.under_back_ellipse {
+  /* Ellipse 1 */
+
+  position: absolute;
+  width: 115px;
+  height: 115px;
+  border-radius: 50%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  -webkit-transform: translate(-50%, 0%);
+  -ms-transform: translate(-50%, 0%);
+  bottom: 0%;
+  background: #efefef;
+}
+.profile_button {
+  /* 横顔アイコン*/
+
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 83%;
+  transform: translate(-50%, 0%);
+  -webkit-transform: translate(-50%, 0%);
+  -ms-transform: translate(-50%, 0%);
+  bottom: 10%;
+}
+.home_button {
+  /* 家のアイコン素材*/
+
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 17%;
+  transform: translate(-50%, 0%);
+  -webkit-transform: translate(-50%, 0%);
+  -ms-transform: translate(-50%, 0%);
+  bottom: 10%;
+}
+.zoom_in_button {
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  left: 85%;
+  top: -250%;
+
+  background: #ffffff;
+  border: 1px solid #efefef;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.zoom_out_button {
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  left: 85%;
+  top: -150%;
+
+  background: #ffffff;
+  border: 1px solid #efefef;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.zoom_button_icon {
+  position: absolute;
+  width: 30px;
+  height: 32px;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}

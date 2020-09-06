@@ -1,0 +1,57 @@
+.response_frame {
+  margin: 7px auto;
+  padding: 10px 3px;
+  width: 345px;
+  height: 70px;
+
+  background: #ffffff;
+  border: 1px solid rgba(75, 75, 75, 0.3);
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+.response_name {
+  position: relative;
+  top: -10px;
+  left: -40%;
+  font-family: "Trebuchet MS", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+
+  color: #4b4b4b;
+}
+.response_response {
+  position: relative;
+  top: -5px;
+
+  font-family: "Trebuchet MS", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+
+  color: #4b4b4b;
+}
+.response_time {
+  position: relative;
+  left: 40%;
+  top: -5px;
+
+  font-family: "Trebuchet MS", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+
+  color: #4b4b4b;
+}

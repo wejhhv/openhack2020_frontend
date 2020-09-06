@@ -1,0 +1,15 @@
+{
+    "short_name": "emore",
+    "name": "emore",
+    "icons": [
+      {
+        "src": "emore_icon2.png",
+        "type": "image/png",
+        "sizes": "500x500"
+      }
+    ],
+    "start_url": "/",
+    "display": "standalone",
+    "theme_color": "#c4e4fc",
+    "background_color": "#ffffff"
+  }
